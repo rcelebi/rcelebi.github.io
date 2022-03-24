@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "My personal webpage"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -11,7 +11,7 @@ redirect_from:
 
 
 
-Welcome to  my personal web page
+Welcome to my personal web page
 ======
 
 I am Assistant Professor at [Institute of Data Science at Maastricht University](https://www.maastrichtuniversity.nl/research/institute-data-science). My research interests include Knowledge Graphs, Linked Open Data,  Machine Learning, and Semantic Web Technologies. I have gained  considerable experience in data integration and knowledge discovery from structured and unstructured data.
