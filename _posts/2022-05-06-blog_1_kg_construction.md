@@ -58,7 +58,7 @@ developed the **theory of relativity**.
 We aim to build a KG that follows a certain semantic structure and
 convert the sentence to the KG in the figure.
 
-![](images/example_kg_albert.png){width="5.348958880139983in"
+![](/images/example_kg_albert.png){width="5.348958880139983in"
 height="2.7263648293963256in"}
 
 When we skim the entities in the given sentence, we can identify
@@ -114,8 +114,7 @@ have the following other applications. For example, if we find the word
 "Floyd" in a sentence, we may not be sure if it means Pink Floyd or
 "Floyd" (a person's name) or "Floyd_Iowa" (a city).
 
-![](images/example_entity_linking_floyd.png){width="5.828125546806649in"
-height="3.4852569991251094in"}
+![](/images/example_entity_linking_floyd.png)
 
 There are some of the important challenges that arise while applying NER
 and NEL in a domain. NER/NEL is a complex task due to problems of name
