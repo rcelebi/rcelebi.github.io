@@ -1,12 +1,13 @@
 ---
 title: 'Blog Post number 1'
-date: 2012-08-14
-permalink: /posts/2012/08/blog-post-1/
+date: 2022-05-06
+permalink: /posts/2022/05/blog_1_kg_construction/
 tags:
   - Knowlegde Graphs
   - Knowlegde Graphs Construction
   - NLP
-  - Entity e
+  - Named Entity Recognition
+  - Named Entity Linking
 ---
 
 Lots of valuable information is available on the web such as Twitter,
