@@ -30,11 +30,11 @@ suggestions based on user search history. For example, if you watch a
 lot of comedies on Netflix, you'll get more recommendations that have
 been classified as the entity Comedy.
 
-Content search
+-  Content search
 
-/recommendation
+-  Content recommendation
 
-/ classification
+-  Content classification
 
 
 Another use for a KG is to develop smarter applications by augmenting
@@ -58,8 +58,7 @@ developed the **theory of relativity**.
 We aim to build a KG that follows a certain semantic structure and
 convert the sentence to the KG in the figure.
 
-![](/images/example_kg_albert.png){width="5.348958880139983in"
-height="2.7263648293963256in"}
+![](/images/example_kg_albert.png)
 
 When we skim the entities in the given sentence, we can identify
 entities such as \"Albert Einstein\", \"German\", \"Theoretical
@@ -88,10 +87,10 @@ entity "Albert Einstein" found in the text is annotated with the
 \'PERSON\' type, while"German(y)" is labelled with the \'Location\'
 type.
 
-\[PER Albert Einstein\]was a \[LOC German\]-born theoretical physicist
-who is best known for developing the theory of relativity. In\[TIME
-1905\], he was awarded a PhD by the \[ORG University of Zurich\]and
-received the \[TIME 1921\] Nobel Prize in Physics \"for his services to
+\[<span style="color:red">PER</span> Albert Einstein\]was a \[<span style="color:red">LOC</span> German\]-born theoretical physicist
+who is best known for developing the theory of relativity. In\[<span style="color:red">TIME</span>
+1905\], he was awarded a PhD by the \[<span style="color:red">ORG</span> University of Zurich\]and
+received the \[<span style="color:red">TIME</span> 1921\] Nobel Prize in Physics \"for his services to
 theoretical physics.
 
 Also, the task of NER can be seen as a simple machine learning problem,
@@ -126,11 +125,11 @@ to different entities depending on the context. If you cannot find a
 suitable model for the domain you have chosen, you have to create your
 own model, which usually requires training data.
 
--   Albert Einstein ***[born in ]{.ul}***Germany
+-   Albert Einstein *born in* Germany
 
--   Albert Einstein ***[occupation]{.ul}*** Theoretical physicist
+-   Albert Einstein *occupation* Theoretical physicist
 
--   Theoretical physicist ***[branch of ]{.ul}***Physics
+-   Theoretical physicist *branch of* Physics
 
 -   ......
 
