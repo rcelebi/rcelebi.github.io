@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post number 1'
+title: 'KG Construction From Unstructured Text'
 date: 2022-05-06
 permalink: /posts/2022/05/blog_1_kg_construction/
 tags:
