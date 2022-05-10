@@ -20,8 +20,15 @@ text sources. In this blog, we will discuss what Natural Language
 Processing (NLP) methods and tools should be used to build KGs.
 
 There are many application areas where you can use the KG built from
-text like Content Search, Recommendation and Classification. We can use
-the KG generated from the content to classify and annotate with keywords
+text like Content Search, Recommendation and Classification.
+
+-  Content search
+
+-  Content recommendation
+
+-  Content classification
+
+ We can use the KG generated from the content to classify and annotate with keywords
 (concepts) and can be searchable with the keywords and variations of
 these keywords. Many modern applications (like Netflix and YouTube) rely
 on recommendation systems to create optimal customer experiences. A lot
@@ -30,19 +37,13 @@ suggestions based on user search history. For example, if you watch a
 lot of comedies on Netflix, you'll get more recommendations that have
 been classified as the entity Comedy.
 
--  Content search
-
--  Content recommendation
-
--  Content classification
 
 
 Another use for a KG is to develop smarter applications by augmenting
-the original text source. The example in the figure shows how we can
-integrate data from a book and the KG constructed from it, making the
-content more easily discoverable. As a matter of fact, DBPedia has
-created a KG using Wikipedia articles. Many applications have been using
-both DBPedia and Wikipedia at the same time.
+the original text source.  We can integrate data from a book and the KG
+ constructed from it, making the content more easily discoverable. 
+ As a matter of fact, DBPedia has created a KG using Wikipedia articles. 
+ Many applications have been using both DBPedia and Wikipedia at the same time.
 
 
 Converting unstructured data into a KG is a common task when there are
