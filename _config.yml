@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Remzi Celebi's Personal Webpage"
 title_separator          : "-"
 name                     : &name "Remzi Celebi"
-description              : &description "personal description"
+description              : &description "Assistant Professor at Maastricht University, working on Knowledge Graphs, Semantic Web, and AI for Health"
 url                      : https://rcelebi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rcelebi/rcelebi.github.io"
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
+  name             : "Remzi Celebi"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  bio              : "Assistant Professor at Maastricht University (DACS). Research in Knowledge Graphs, Semantic Web, and AI for personalized health and drug discovery."
+  location         : "Maastricht, Netherlands"
+  employer         : "Maastricht University"
+  pubmed           :
+  googlescholar    : "https://scholar.google.com/citations?user=cB1tSB0AAAAJ"
+  email            : "r.celebi@maastrichtuniversity.nl"
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "rcelebi"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Amsterdam # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
