@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Remzi Celebi"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Assistant Professor at Maastricht University (DACS). Research in Knowledge Graphs, Semantic Web, and AI for personalized health and drug discovery."
   location         : "Maastricht, Netherlands"
   employer         : "Maastricht University"
