@@ -1,4 +1,26 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+// Mobile nav: move all visible nav links into hidden-links on small screens
+// so the hamburger button gives access to all pages
+(function() {
+  function mobileNavInit() {
+    if (window.innerWidth <= 768) {
+      var vlinks = document.querySelector('#site-nav .visible-links');
+      var hlinks = document.querySelector('#site-nav .hidden-links');
+      if (!vlinks || !hlinks) return;
+      // Move all items except site title into hidden-links
+      var items = vlinks.querySelectorAll('li:not(:first-child)');
+      items.forEach(function(item) {
+        if (!hlinks.contains(item)) {
+          hlinks.appendChild(item);
+        }
+      });
+    }
+  }
+  document.addEventListener('DOMContentLoaded', mobileNavInit);
+  window.addEventListener('resize', mobileNavInit);
+})();
+</script>
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
