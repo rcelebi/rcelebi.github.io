@@ -12,8 +12,6 @@ redirect_from:
 Education
 ======
 * Ph.D. in Computer Engineering, Ege University, 2018
-* M.Sc. in Computer Engineering, Ege University
-* B.Sc. in Computer Engineering, Ege University
 
 Work Experience
 ======

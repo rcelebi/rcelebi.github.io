@@ -6,7 +6,7 @@ excerpt: 'We present realistic evaluation settings to predict drug-drug interact
 
 In the study, we propose a simple disjoint cross-validation scheme to evaluate drug-drug interaction predictions for the scenarios where the drugs have no known DDIs. Our contribution can be summarized as follows : i) comparison of different knowledge graph embedding approaches on DDI prediction task ii)  evaluation of different knowledge graphs as background knowledge for feature learning iii)  testing DDI prediction task for the cold-start scenarios.
 '
-date: 2009-10-01
+date: 2019-12-18
 venue: 'BMC Bioinformatics'
 paperurl: 'https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/s12859-019-3284-5.pdf'
 citation: 'Celebi, R., Uyar, H., Yasar, E. et al. Evaluation of knowledge graph embedding approaches for drug-drug interaction prediction in realistic settings. BMC Bioinformatics 20, 726 (2019). https://doi.org/10.1186/s12859-019-3284-5'
