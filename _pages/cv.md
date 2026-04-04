@@ -16,7 +16,7 @@ Education
 Work Experience
 ======
 * **2022 – present**: Assistant Professor, Department of Advanced Computing Sciences (DACS), Maastricht University, Netherlands
-* **2019 – 2021**: Postdoctoral Researcher, Institute of Data Science, Maastricht University, Netherlands
+* **2018 – 2022**: Postdoctoral Researcher, Institute of Data Science, Maastricht University, Netherlands
 
 Skills
 ====== 
