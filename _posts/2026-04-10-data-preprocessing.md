@@ -1,5 +1,5 @@
 ---
-title: 'The Hidden Art of Data Preprocessing: Why Your Machine Learning Model is "Confused"'
+title: 'Data Preprocessing: Why Noisy and Incomplete Data Breaks Machine Learning Models'
 date: 2026-04-10
 permalink: /posts/2026/04/data-preprocessing/
 tags:

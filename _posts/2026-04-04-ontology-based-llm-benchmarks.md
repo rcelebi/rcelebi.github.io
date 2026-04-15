@@ -1,5 +1,5 @@
 ---
-title: 'The Hidden Problem with Evaluating LLMs: Why Ontology-Based Benchmarks Matter'
+title: 'Beyond Leaderboards: Why Ontology-Based Benchmarks Give a More Accurate Picture of LLM Reasoning'
 date: 2026-04-04
 permalink: /posts/2026/04/ontology-based-llm-benchmarks/
 tags:
