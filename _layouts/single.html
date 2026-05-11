@@ -67,14 +67,21 @@ layout: default
       <div class="page__views" style="margin-top: 0.5em;">
         <img id="page-hits-badge" alt="total views" style="vertical-align: middle;">
         &nbsp;
-        <img id="page-visitors-badge" alt="unique visitors" style="vertical-align: middle;">
+        <span id="unique-views-badge" style="display:inline-block; vertical-align:middle; background:#555; border-radius:3px; overflow:hidden; font-family:Verdana,sans-serif; font-size:11px; line-height:20px;">
+          <span style="padding:0 6px; color:#fff;">unique visitors</span><span id="unique-views-count" style="padding:0 6px; background:#4A90D9; color:#fff;">…</span>
+        </span>
         <script>
           var path = window.location.pathname.replace(/\/$/, '');
-          var pageId = 'rcelebi.github.io' + path.replace(/\//g, '.');
           document.getElementById('page-hits-badge').src =
             'https://hits.sh/rcelebi.github.io' + path + '.svg';
-          document.getElementById('page-visitors-badge').src =
-            'https://visitor-badge.laobi.icu/badge?page_id=' + pageId;
+          fetch('https://rcelebi.goatcounter.com/counter/' + encodeURIComponent(path) + '.json')
+            .then(function(r) { return r.json(); })
+            .then(function(d) {
+              document.getElementById('unique-views-count').textContent = d.count_unique !== undefined ? d.count_unique : d.count;
+            })
+            .catch(function() {
+              document.getElementById('unique-views-count').textContent = '—';
+            });
         </script>
       </div>
 
