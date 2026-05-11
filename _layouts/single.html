@@ -65,11 +65,16 @@ layout: default
       </footer>
 
       <div class="page__views" style="margin-top: 0.5em;">
-        <img id="page-views-badge" alt="page views" style="vertical-align: middle;">
+        <img id="page-hits-badge" alt="total views" style="vertical-align: middle;">
+        &nbsp;
+        <img id="page-visitors-badge" alt="unique visitors" style="vertical-align: middle;">
         <script>
           var path = window.location.pathname.replace(/\/$/, '');
-          document.getElementById('page-views-badge').src =
+          var pageId = 'rcelebi.github.io' + path.replace(/\//g, '.');
+          document.getElementById('page-hits-badge').src =
             'https://hits.sh/rcelebi.github.io' + path + '.svg';
+          document.getElementById('page-visitors-badge').src =
+            'https://visitor-badge.laobi.icu/badge?page_id=' + pageId;
         </script>
       </div>
 
