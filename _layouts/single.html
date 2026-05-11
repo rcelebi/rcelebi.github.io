@@ -65,7 +65,12 @@ layout: default
       </footer>
 
       <div class="page__views" style="margin-top: 0.5em;">
-        <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url={{ page.url | absolute_url | url_encode }}&count_bg=%234A90D9&title_bg=%23555555&title=views&edge_flat=true" alt="page views" style="vertical-align: middle;">
+        <img id="page-views-badge" alt="page views" style="vertical-align: middle;">
+        <script>
+          var path = window.location.pathname.replace(/\/$/, '');
+          document.getElementById('page-views-badge').src =
+            'https://hits.sh/rcelebi.github.io' + path + '.svg';
+        </script>
       </div>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
